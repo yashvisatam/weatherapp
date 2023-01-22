@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  margin-left: 5px;
+  height: 35px;
+  width: 95px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid green;
+}
+
+.static {
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button1 {
+  border-radius: 7px;
+}
+.button1:hover {
+  background-color: grey;
+  color: white;
+}
+.weathercard {
+  height: 130px;
+  width: 200px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 5px;
+  pointer-events: auto;
+  transform: scale(1);
+  transition: all 0.4s;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font: 30px;
+  background-color: lavender;
+}
+.weathercard:hover {
+  height: 140px;
+  width: 220px;
+  font: bold;
+  background-color: rgb(216, 216, 253);
+  opacity: 1;
+  transform: scale(1.02);
+  font: 45px;
+}
+.header {
+  background-color: lightgray;
+  width:auto ;
+
+}
+.name {
+  margin-left: 1em;
+}
+.navbar {
+  padding: 15px;
+  width: auto;
+}
+.image{
+  height: 20px;
+  width: 20px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.searchinput {
+  border-radius: 5px;
+  border: 2px solid grey;
+  margin-top: 12px;
+}
+.ans {
+  margin: auto;
+  margin-top: 12%;
+}
